@@ -7,7 +7,7 @@ from flask import Flask, request, render_template_string, render_template, make_
 
 app = Flask(__name__)
 
-# Las funciones y definiciones de lexer() y lexer_string() aquí...
+# Las funciones y definiciones de lexer() 
 def lexer(code_string):
     patterns = [
         ('reserved', r'\b(?:and|as|assert|break|continue|class|def|del|elif|else|except|finally|for|from|if|import|global|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield)\b'),
